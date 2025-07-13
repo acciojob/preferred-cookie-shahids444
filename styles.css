@@ -1,9 +1,12 @@
 :root {
-  --fontsize: 16px;
-  --fontcolor: #000000;
+  --fontsize: 16px;      /* default font size  */
+  --fontcolor: #000000;  /* default font color */
 }
 
 body {
   font-size: var(--fontsize);
   color: var(--fontcolor);
+  font-family: system-ui, sans-serif;
+  padding: 1.5rem;
+  line-height: 1.6;
 }
